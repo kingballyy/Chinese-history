@@ -278,7 +278,7 @@ export const FACTION_DETAILS: Record<string, FactionDetail> = {
   'yuan': { id: 'yuan', name: '元朝', duration: '1271 - 1368', rulers: '忽必烈', culture: '元曲, 青花瓷', events: '崖山海战', impact: '行省制度沿用至今，疆域空前辽阔。' },
   'ming': { id: 'ming', name: '明朝', duration: '1368 - 1644', rulers: '朱元璋, 朱棣', culture: '小说, 阳明心学', events: '土木堡之变, 郑和下西洋', impact: '君主专制强化，资本主义萌芽出现。' },
   'qing': { id: 'qing', name: '清朝', duration: '1644 - 1912', rulers: '康熙, 乾隆', culture: '京剧, 红楼梦', events: '三藩之乱, 鸦片战争', impact: '奠定了现代中国的版图，中国历史上最后一个封建王朝。' },
-];
+};
 
 // Map State Logic
 export const getMapState = (year: number): MapState => {
